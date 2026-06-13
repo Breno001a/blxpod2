@@ -16,7 +16,7 @@ export default function App() {
     {
       id: 1,
       name: "BLVK BAR 20k",
-      price: 115,
+      price: 120,
       image: blvk,
       flavors: [
         "Kiwi Pitaia",
@@ -62,7 +62,7 @@ export default function App() {
     {
       id: 4,
       name: "ELFBAR 4OK   ",
-      price: 155,
+      price: 160,
       image: elf,
       flavors: [
         "Blueberry Ice",
@@ -76,7 +76,7 @@ export default function App() {
 {
   id: 5,
   name: "LIFEPOD THE ONE 40K BLACK",
-  price: 155,
+  price: 160,
   image: lifepodBlack,
   flavors: [
       "Chiclete de Banana",
@@ -90,7 +90,7 @@ export default function App() {
 {
   id: 6,
   name: "LIFEPOD THE ONE 40K GOLD",
-  price: 155,
+  price: 160,
   image: lifepodGold,
   flavors: [
    "Chiclete de Cereja",
@@ -104,7 +104,7 @@ export default function App() {
 {
   id: 7,
   name: "LIFEPOD THE ONE 40K GREY",
-  price: 155,
+  price: 160,
   image: lifepodGrey,
   flavors: [
      "Love66",
@@ -114,7 +114,7 @@ export default function App() {
 {
   id: 8,
   name: "LIFEPOD THE ONE 40K VIOLET",
-  price: 155,
+  price: 160,
   image: lifepodViolet,
   flavors: [
      "Love66",

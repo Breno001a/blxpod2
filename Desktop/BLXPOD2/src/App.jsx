@@ -9,6 +9,7 @@ import lifepodGold from "./imagens/lifepodgold.png";
 import lifepodGrey from "./imagens/lifepodgrey.png";
 import lifepodViolet from "./imagens/lifepodviolet.png";
 import geekbar from "./imagens/geekbar.png";
+import dinnerLadyGalaxi from "./imagens/Dinner Lady GALAXI.png";
 
 export default function App() {
   const products = [
@@ -121,8 +122,24 @@ export default function App() {
   ]
 },
 
+{
+  id: 9,
+  name: "DINNER LADY GALAXI 60K",
+  price: 190,
+  image: dinnerLadyGalaxi,
+  flavors: [
+    "Amora Preta",
+    "Cereja",
+    "Chiclete de Uva",
+    "Menta Miami",
+    "Pirulito de Maçã Ácida"
+  ]
+}
 
-  ];
+];
+
+
+ 
 
   const [selectedFlavors, setSelectedFlavors] = useState({});
   const [cart, setCart] = useState([]);
@@ -141,6 +158,10 @@ export default function App() {
   if (texto.includes("pêssego")) return "🍑";
   if (texto.includes("manga")) return "🥭";
   if (texto.includes("blueberry")) return "🫐";
+  if (texto.includes("cereja")) return "🍒";
+  if (texto.includes("pirulito")) return "🍭";
+  if (texto.includes("chiclete")) return "🍬";
+  
 
   return "🍓";
 }
@@ -202,15 +223,17 @@ ${customerName}
 `;
 
     cart.forEach((item, index) => {
-      message += `
+  message += `
 🛒 Produto ${index + 1}
 
-📦 ${item.name}
+📦 Produto: ${item.name}
+
+🍓 Sabor: ${item.flavor}
 
 💰 Valor: R$ ${item.price},00
 
 `;
-    });
+});
 
     message += `
 ━━━━━━━━━━━━━━━
@@ -235,12 +258,19 @@ Obrigado pela preferência 🤝
   return (
     <div className="app">
       <h1 className="title">
-        BLX PODS 🔥
+        BLX PODS
       </h1>
 
-      <p className="subtitle">
-        Os melhores Pods Premium • Entrega Rápida
-      </p>
+      
+
+<div className="promo-banner">
+  🔥 • PODS ORIGINAIS • MELHORES PREÇO 
+</div>
+
+<p className="subtitle">
+  Os melhores Pods Premium • Entrega Rápida
+</p>
+
 
       <div className="products-grid">
         {products.map((product) => (

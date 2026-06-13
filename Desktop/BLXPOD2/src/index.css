@@ -109,3 +109,14 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+.promo-banner{
+  max-width:1200px;
+  margin:20px auto 40px;
+  text-align:center;
+  background:#ffffff;
+  color:#000;
+  font-weight:900;
+  padding:15px;
+  border-radius:15px;
+  box-shadow:0 0 20px #0110e4;
+}

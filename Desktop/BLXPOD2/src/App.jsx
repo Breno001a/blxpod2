@@ -125,7 +125,7 @@ export default function App() {
 {
   id: 9,
   name: "DINNER LADY GALAXI 60K",
-  price: 190,
+  price: 195,
   image: dinnerLadyGalaxi,
   flavors: [
     "Amora Preta",

@@ -29,7 +29,7 @@ export default function App() {
     {
       id: 2,
       name: "BLACK SHEEP 25K",
-      price: 135.99,
+      price: 13599,
       image: sheep,
       flavors: [
         "Maçã Verde",

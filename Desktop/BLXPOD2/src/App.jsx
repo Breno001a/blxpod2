@@ -29,7 +29,7 @@ export default function App() {
     {
       id: 2,
       name: "BLACK SHEEP 25K",
-      price: 130,
+      price: 135.99,
       image: sheep,
       flavors: [
         "Maçã Verde",
@@ -43,7 +43,7 @@ export default function App() {
     {
   id: 3,
   name: "GEEKBAR 35K",
-  price: 145,
+  price: 145.99,
   image: geekbar,
   flavors: [
     "Framboesa Azul Ice",
@@ -76,7 +76,7 @@ export default function App() {
 {
   id: 5,
   name: "LIFEPOD THE ONE 40K BLACK",
-  price: 160,
+  price: 155.99,
   image: lifepodBlack,
   flavors: [
       "Chiclete de Banana",
@@ -90,7 +90,7 @@ export default function App() {
 {
   id: 6,
   name: "LIFEPOD THE ONE 40K GOLD",
-  price: 160,
+  price: 155.99,
   image: lifepodGold,
   flavors: [
    "Chiclete de Cereja",
@@ -104,7 +104,7 @@ export default function App() {
 {
   id: 7,
   name: "LIFEPOD THE ONE 40K GREY",
-  price: 160,
+  price: 155.99,
   image: lifepodGrey,
   flavors: [
      "Love66",
@@ -114,7 +114,7 @@ export default function App() {
 {
   id: 8,
   name: "LIFEPOD THE ONE 40K VIOLET",
-  price: 160,
+  price: 155.99,
   image: lifepodViolet,
   flavors: [
      "Love66",
@@ -125,7 +125,7 @@ export default function App() {
 {
   id: 9,
   name: "DINNER LADY GALAXI 60K",
-  price: 200,
+  price: 190,
   image: dinnerLadyGalaxi,
   flavors: [
     "Amora Preta",
